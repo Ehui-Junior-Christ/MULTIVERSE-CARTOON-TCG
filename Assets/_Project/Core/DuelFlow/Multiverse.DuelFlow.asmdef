@@ -1,0 +1,17 @@
+{
+	"name": "Multiverse.DuelFlow",
+	"rootNamespace": "Multiverse.DuelFlow",
+	"references": [
+		"Multiverse.Domain",
+		"Multiverse.EffectEngine"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": [],
+	"versionDefines": [],
+	"noEngineReferences": true
+}

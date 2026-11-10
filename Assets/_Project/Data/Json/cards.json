@@ -1,0 +1,356 @@
+{
+  "schemaVersion": "1",
+  "cards": [
+    {
+      "id": "DP-001",
+      "cardName": "Danny Fantome",
+      "subtitle": "Le Protecteur Spectral",
+      "type": 0,
+      "subType": "Fantome",
+      "universeId": "DannyPhantom",
+      "rarity": 3,
+      "popularity": 12,
+      "atk": 5000,
+      "def": 4000,
+      "flavorText": "Je protege les deux mondes!",
+      "artworkRef": "References/Danny/Danny_Fantome_SR_1794315075703.jpg",
+      "lore": {
+        "cartoonReference": "Danny Phantom",
+        "characterReference": "Danny Fenton / Danny Fantome",
+        "loreElement": "Pouvoir de heros spectral, liaison des deux mondes",
+        "loreExplanation": "Danny est le heros garde entre le monde humain et la Zone Fantome, role confirmee dans la serie.",
+        "gameplayTranslation": "Carte centrale du deck Fantome avec une capacite de protection et une attaque directe.",
+        "canonStatus": 0
+      },
+      "abilities": [
+        {
+          "abilityName": "Intangibilite",
+          "trigger": 1,
+          "condition": { "op": 0, "leaves": [], "groups": [] },
+          "costs": [],
+          "targeting": { "primary": 0, "multiTarget": false, "optionalTarget": true },
+          "effects": [ { "kind": 6, "amount": 1, "durationTurns": 0, "target": 0, "side": 0, "effectId": "DP001-intangibilite" } ],
+          "usageLimit": 1,
+          "lore": {
+            "cartoonReference": "Danny Phantom",
+            "characterReference": "Danny Fenton",
+            "loreElement": "Intangibilite spectrale",
+            "loreExplanation": "Danny devient incorporel pour faire passer les attaques a travers lui (pouvoir permanent de la saison 1).",
+            "gameplayTranslation": "Esquive : une fois par tour, l'attaque declaree contre Danny n'est pas resolue.",
+            "canonStatus": 0
+          }
+        },
+        {
+          "abilityName": "Rayon Fantomatique",
+          "trigger": 0,
+          "condition": { "op": 0, "leaves": [], "groups": [] },
+          "costs": [],
+          "targeting": { "primary": 1, "multiTarget": false, "optionalTarget": false },
+          "effects": [ { "kind": 0, "amount": 3500, "durationTurns": 0, "target": 1, "side": 1, "effectId": "DP001-rayon" } ],
+          "usageLimit": 1,
+          "lore": {
+            "cartoonReference": "Danny Phantom",
+            "characterReference": "Danny Fenton",
+            "loreElement": "Rayon fantomatique / ecos Signatures",
+            "loreExplanation": "Attaque spectrale recurrente de Danny face aux fantomes ennemis dans la Zone Fantome.",
+            "gameplayTranslation": "Active : inflige 3500 degats a un personnage adverse choisi, une fois par tour.",
+            "canonStatus": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "DP-002",
+      "cardName": "Sam Manson",
+      "subtitle": "La Gothique Eco-Guerriere",
+      "type": 0,
+      "subType": "Fantome",
+      "universeId": "DannyPhantom",
+      "rarity": 2,
+      "popularity": 7,
+      "atk": 2200,
+      "def": 1500,
+      "flavorText": "A completer : citation Sam Manson (planche illisible)",
+      "artworkRef": "References/Danny/planche_1794305798308.jpg#danny-sam",
+      "lore": {
+        "cartoonReference": "Danny Phantom",
+        "characterReference": "Sam Manson",
+        "loreElement": "Eco-guerriere vegetarienne, liaison vegetale et defense de la nature",
+        "loreExplanation": "La serie confirme Sam est une eco-guerriere passionnee de vegetal et de defense de la nature.",
+        "gameplayTranslation": "Carte de soutien eco-fantome : attaque vegetal + bonus a Danny.",
+        "canonStatus": 0
+      },
+      "abilities": [
+        {
+          "abilityName": "Coup de Poing-Plante",
+          "trigger": 0,
+          "condition": { "op": 0, "leaves": [], "groups": [] },
+          "costs": [],
+          "targeting": { "primary": 1, "multiTarget": false, "optionalTarget": false },
+          "effects": [ { "kind": 0, "amount": 2000, "durationTurns": 0, "target": 1, "side": 1, "effectId": "DP002-poing-plante" } ],
+          "usageLimit": 1,
+          "lore": {
+            "cartoonReference": "Danny Phantom",
+            "characterReference": "Sam Manson",
+            "loreElement": "Ligne vegetal / liberte des plantes (episodes vegetaux)",
+            "loreExplanation": "Sam mobilise le vegetal en defense ou en attaque apres sa rencontre avec la nature.",
+            "gameplayTranslation": "Active : inflige 2000 degats a un personnage adverse, une fois par tour.",
+            "canonStatus": 1
+          }
+        },
+        {
+          "abilityName": "Amie Fidele",
+          "trigger": 7,
+          "condition": { "op": 1, "leaves": [ { "kind": 6, "value": 0, "universeId": "DannyPhantom" } ], "groups": [] },
+          "costs": [],
+          "targeting": { "primary": 2, "multiTarget": false, "optionalTarget": true },
+          "effects": [ { "kind": 12, "amount": 500, "durationTurns": 0, "target": 2, "side": 0, "effectId": "DP002-amie-fidele" } ],
+          "usageLimit": 0,
+          "lore": {
+            "cartoonReference": "Danny Phantom",
+            "characterReference": "Sam Manson",
+            "loreElement": "Loyaulte de Sam envers Danny (l'ami toujours fidele)",
+            "loreExplanation": "Sam est l'alliee toujours fidele de Danny dans chaque episode.",
+            "gameplayTranslation": "Passif : tant que Sam est sur le terrain, un personnage allie gagne +500 ATK (adaptation : le bonus d'amitie devient un buff).",
+            "canonStatus": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "DP-003",
+      "cardName": "Tucker Foley",
+      "subtitle": "Le Genie Technologique",
+      "type": 0,
+      "subType": "Fantome",
+      "universeId": "DannyPhantom",
+      "rarity": 2,
+      "popularity": 7,
+      "atk": 2500,
+      "def": 1800,
+      "flavorText": "A completer : citation Tucker Foley (planche illisible)",
+      "artworkRef": "References/Danny/planche_1794305798308.jpg#danny-tucker",
+      "lore": {
+        "cartoonReference": "Danny Phantom",
+        "characterReference": "Tucker Foley",
+        "loreElement": "Le PDA... techno-guru de Amity Park",
+        "loreExplanation": "Tucker mise tout sur la tech (PDA, reseaux) et le catalogue d'appareils.",
+        "gameplayTranslation": "Carte de controle tech : negie une capacite ou boost un allie.",
+        "canonStatus": 0
+      },
+      "abilities": [
+        {
+          "abilityName": "Piratage de Reseau",
+          "trigger": 0,
+          "condition": { "op": 0, "leaves": [], "groups": [] },
+          "costs": [],
+          "targeting": { "primary": 1, "multiTarget": false, "optionalTarget": false },
+          "effects": [ { "kind": 11, "amount": 1, "durationTurns": 1, "target": 1, "side": 1, "effectId": "DP003-piratage" } ],
+          "usageLimit": 1,
+          "lore": {
+            "cartoonReference": "Danny Phantom",
+            "characterReference": "Tucker Foley",
+            "loreElement": "Piratage de reseaux tech de Amity Park (episodes avec Tucker bidouilleur)",
+            "loreExplanation": "Tucker pirate les reseaux du fledgling tech (ek. le techno-ectofusor, le bus...).",
+            "gameplayTranslation": "Active : bloque les capacites d'un personnage adverse pendant un tour.",
+            "canonStatus": 1
+          }
+        },
+        {
+          "abilityName": "Amplificateur de Signal",
+          "trigger": 0,
+          "condition": { "op": 0, "leaves": [], "groups": [] },
+          "costs": [],
+          "targeting": { "primary": 2, "multiTarget": false, "optionalTarget": true },
+          "effects": [ { "kind": 12, "amount": 800, "durationTurns": 0, "target": 2, "side": 0, "effectId": "DP003-ampli" } ],
+          "usageLimit": 1,
+          "lore": {
+            "cartoonReference": "Danny Phantom",
+            "characterReference": "Tucker Foley",
+            "loreElement": "L'amplificateur de signal de Tucker",
+            "loreExplanation": "Tucker boost toujours ses machines qui amplifier ses capacites.",
+            "gameplayTranslation": "Active : un personnage allie gagne +800 ATK jusqu'a la fin du tour.",
+            "canonStatus": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "DP-004",
+      "cardName": "The Box Ghost",
+      "subtitle": "Le Fantome des Boites",
+      "type": 0,
+      "subType": "Fantome",
+      "universeId": "DannyPhantom",
+      "rarity": 2,
+      "popularity": 5,
+      "atk": 1000,
+      "def": 800,
+      "flavorText": "A completer : citation The Box Ghost (planche illisible)",
+      "artworkRef": "References/Danny/planche_1794305798308.jpg#danny-boxghost",
+      "lore": {
+        "cartoonReference": "Danny Phantom",
+        "characterReference": "The Box Ghost (Le Fantome des Boites)",
+        "loreElement": "Reign sur les boites de carton, fuite dans ses cartons",
+        "loreExplanation": "Le fantome des boites controle tout ce que la boite contient et se cache toujours dedans.",
+        "gameplayTranslation": "Carte broyeur/bad-beast : degats legers et esquive fuites.",
+        "canonStatus": 0
+      },
+      "abilities": [
+        {
+          "abilityName": "Lancer de Boites",
+          "trigger": 0,
+          "condition": { "op": 0, "leaves": [], "groups": [] },
+          "costs": [],
+          "targeting": { "primary": 4, "multiTarget": false, "optionalTarget": false },
+          "effects": [ { "kind": 0, "amount": 500, "durationTurns": 0, "target": 4, "side": 1, "effectId": "DP004-boites" } ],
+          "usageLimit": 1,
+          "lore": {
+            "cartoonReference": "Danny Phantom",
+            "characterReference": "The Box Ghost",
+            "loreElement": "Jet de cartons sur la cible",
+            "loreExplanation": "Sa signature serie : jeter des boites / cubed furnitures sur ses ennemis.",
+            "gameplayTranslation": "Active : inflige 500 degats au joueur adverse.",
+            "canonStatus": 1
+          }
+        },
+        {
+          "abilityName": "Cachette",
+          "trigger": 1,
+          "condition": { "op": 0, "leaves": [], "groups": [] },
+          "costs": [],
+          "targeting": { "primary": 0, "multiTarget": false, "optionalTarget": true },
+          "effects": [ { "kind": 6, "amount": 1, "durationTurns": 0, "target": 0, "side": 0, "effectId": "DP004-cachette" } ],
+          "usageLimit": 1,
+          "lore": {
+            "cartoonReference": "Danny Phantom",
+            "characterReference": "The Box Ghost",
+            "loreElement": "Fuite dans une boite",
+            "loreExplanation": "Le fantome des boites evite toujours de vrais combats en se cachant dans ses cartons.",
+            "gameplayTranslation": "Evenement : une fois par tour, evite une attaque adverse.",
+            "canonStatus": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "DP-005",
+      "cardName": "Ember McLain",
+      "subtitle": "L'Idole du Rock Fantome",
+      "type": 0,
+      "subType": "Fantome",
+      "universeId": "DannyPhantom",
+      "rarity": 3,
+      "popularity": 10,
+      "atk": 4500,
+      "def": 3000,
+      "flavorText": "A completer : citation Ember McLain (planche illisible)",
+      "artworkRef": "References/Danny/planche_1794305798308.jpg#danny-ember",
+      "lore": {
+        "cartoonReference": "Danny Phantom",
+        "characterReference": "Ember McLain",
+        "loreElement": "Guitare du rock fantome et le chant hypnotique « Remember »",
+        "loreExplanation": "Ember contrôle les esprits et les foules via la musique, son chant « Remember » est sa signature.",
+        "gameplayTranslation": "Carte offensive/contrôle esprits : dégâts de zone + prise de contrôle.",
+        "canonStatus": 0
+      },
+      "abilities": [
+        {
+          "abilityName": "Riff de Flamme",
+          "trigger": 0,
+          "condition": { "op": 0, "leaves": [], "groups": [] },
+          "costs": [],
+          "targeting": { "primary": 4, "multiTarget": false, "optionalTarget": false },
+          "effects": [ { "kind": 0, "amount": 1500, "durationTurns": 0, "target": 4, "side": 1, "effectId": "DP005-riff" } ],
+          "usageLimit": 1,
+          "lore": {
+            "cartoonReference": "Danny Phantom",
+            "characterReference": "Ember McLain",
+            "loreElement": "Guitare a flammes (son riff de combat)",
+            "loreExplanation": "Ember balance des riffs de guitare en laser de flammes pendant ses concerts.",
+            "gameplayTranslation": "Active : inflige 1500 degats au joueur adverse (adaptation de l'effet de zone).",
+            "canonStatus": 1
+          }
+        },
+        {
+          "abilityName": "Chant de Possession",
+          "trigger": 0,
+          "condition": { "op": 0, "leaves": [], "groups": [] },
+          "costs": [],
+          "targeting": { "primary": 1, "multiTarget": false, "optionalTarget": false },
+          "effects": [
+            { "kind": 7, "amount": 1, "durationTurns": 1, "target": 1, "side": 1, "effectId": "DP005-possession-freeze" },
+            { "kind": 11, "amount": 1, "durationTurns": 1, "target": 1, "side": 1, "effectId": "DP005-possession-block" }
+          ],
+          "usageLimit": 1,
+          "lore": {
+            "cartoonReference": "Danny Phantom",
+            "characterReference": "Ember McLain",
+            "loreElement": "Le chant « Remember » hypnotise/esclavagise la foule",
+            "loreExplanation": "Dans l'episode « Reign » (Fanning the Flames), Ember hypnotise les fans par son chant.",
+            "gameplayTranslation": "Active : un personnage adverse est immobilise et ses capacites sont bloquées pendant un tour.",
+            "canonStatus": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "DP-006",
+      "cardName": "Skulker",
+      "subtitle": "Le Chasseur de Fantomes",
+      "type": 0,
+      "subType": "Fantome",
+      "universeId": "DannyPhantom",
+      "rarity": 2,
+      "popularity": 9,
+      "atk": 4200,
+      "def": 3800,
+      "flavorText": "A completer : citation Skulker (planche illisible)",
+      "artworkRef": "References/Danny/planche_1794305798308.jpg#danny-skulker",
+      "lore": {
+        "cartoonReference": "Danny Phantom",
+        "characterReference": "Skulker",
+        "loreElement": "Chasseur de primes : filets, arsenal futuriste et domination de la Zone Fantome",
+        "loreExplanation": "Skulker est le grand chasseur de game : il capture ses proies avec des filets et un arsenal robotique dedicate.",
+        "gameplayTranslation": "Carte de controle contrainte : immobilisation + double attaque.",
+        "canonStatus": 0
+      },
+      "abilities": [
+        {
+          "abilityName": "Piege a Filet",
+          "trigger": 0,
+          "condition": { "op": 0, "leaves": [], "groups": [] },
+          "costs": [],
+          "targeting": { "primary": 1, "multiTarget": false, "optionalTarget": false },
+          "effects": [ { "kind": 7, "amount": 1, "durationTurns": 2, "target": 1, "side": 1, "effectId": "DP006-filet" } ],
+          "usageLimit": 1,
+          "lore": {
+            "cartoonReference": "Danny Phantom",
+            "characterReference": "Skulker",
+            "loreElement": "Filet de chasse de Skulker",
+            "loreExplanation": "Skulker capture Danny et sa bande plusieurs fois avec ce filet robotique.",
+            "gameplayTranslation": "Active : immobilise un personnage adverse pendant 2 tours.",
+            "canonStatus": 0
+          }
+        },
+        {
+          "abilityName": "Arsenal Chasseur",
+          "trigger": 7,
+          "condition": { "op": 0, "leaves": [], "groups": [] },
+          "costs": [],
+          "targeting": { "primary": 0, "multiTarget": false, "optionalTarget": false },
+          "effects": [ { "kind": 1, "amount": 300, "durationTurns": 0, "target": 2, "side": 0, "effectId": "DP006-arsenal" } ],
+          "usageLimit": 0,
+          "lore": {
+            "cartoonReference": "Danny Phantom",
+            "characterReference": "Skulker",
+            "loreElement": "Arsenal de chasse (blasters, missiles, gadgets)",
+            "loreExplanation": "Skulker possede des armes incredules et robotiques continues.",
+            "gameplayTranslation": "Passif : Skulker gagne +300 ATK.",
+            "canonStatus": 1
+          }
+        }
+      ]
+    }
+  ]
+}

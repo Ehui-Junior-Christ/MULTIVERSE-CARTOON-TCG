@@ -1,0 +1,19 @@
+{
+	"name": "Multiverse.Presentation",
+	"rootNamespace": "Multiverse.Presentation",
+	"references": [
+		"Multiverse.Domain",
+		"Multiverse.DuelFlow",
+		"UnityEngine.UI",
+		"Unity.TextMeshPro"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": [],
+	"versionDefines": [],
+	"noEngineReferences": false
+}

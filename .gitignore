@@ -1,0 +1,48 @@
+# Unity generated
+[Ll]ibrary/
+[Ll]ogs/
+[Uu]serSettings/
+[Tt]emp/
+[Uu]ntitled*/
+obj/
+[Bb]uild*/
+[Bb]uilds/
+[Bb]uildTools/
+sysinfo.txt
+crashlytics-build.properties
+*.stackdump
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity project-level generated
+[Dd]ebugPro/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.booproj
+*.svd
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Unity build results
+*.apk
+*.aab
+*.unitypackage
+*.uxf
+
+# Logs temporaire de creation du projet
+createProject.log
+compileLog.log
+testLog.log
+testResults.xml
+.vscode/
+*.slnx

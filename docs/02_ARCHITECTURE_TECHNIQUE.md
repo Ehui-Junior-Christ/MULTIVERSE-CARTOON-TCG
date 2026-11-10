@@ -199,7 +199,7 @@ Le prefab `CardVisual` est composé d'éléments **strictement séparés** (PDF 
 |---|---|---|
 | 1 Audit | repo connecté, PDF analysé, images analysées | ✅ fait |
 | 2 Conception | `docs/01_RAPPORT_ANALYSE_REFERENCES.md` + `docs/02_ARCHITECTURE_TECHNIQUE.md` (ce doc) | ✅ fait |
-| 3 Vertical slice | projet Unity 2D : duel local de base avec ~6 cartes de test, phases, invocation, attaque, PV, sauvegarde test | ⬜ à venir |
+| 3 Vertical slice | projet Unity 6 créé, code Domain/Effects/Duel/Data compilable sans scène, **22/22 tests EditMode verts** ; scène de duel + UI restants | 🔶 en cours (moteur ✅, scène ⬜) |
 | 4 Moteur d'effets | réactions, chaîne, AND/OR, capacités manuelles et déclenchées | ⬜ |
 | 5 Contenu | fiches de lore + 30 cartes (ex. Danny Phantom planche = 16 premières références) + 5 decks préconstruits | ⬜ |
 | 6 Interface | splash, dashboard, collection (mur de cartes), deck builder, boutique/gacha, terrain cartoon | ⬜ |

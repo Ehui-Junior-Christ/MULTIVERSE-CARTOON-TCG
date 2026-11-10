@@ -1,0 +1,27 @@
+{
+	"name": "Multiverse.Tests.EditMode",
+	"rootNamespace": "Multiverse.Tests",
+	"references": [
+		"Multiverse.Domain",
+		"Multiverse.EffectEngine",
+		"Multiverse.DuelFlow",
+		"Multiverse.Data",
+		"UnityEngine.TestRunner",
+		"UnityEditor.TestRunner"
+	],
+	"includePlatforms": [
+		"Editor"
+	],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": true,
+	"precompiledReferences": [
+		"nunit.framework.dll"
+	],
+	"autoReferenced": false,
+	"defineConstraints": [
+		"UNITY_INCLUDE_TESTS"
+	],
+	"versionDefines": [],
+	"noEngineReferences": false
+}
