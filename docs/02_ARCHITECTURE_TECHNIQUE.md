@@ -9,7 +9,7 @@
 
 | # | Décision | Justification |
 |---|---|---|
-| ADR-01 | **Unity 2022.3 LTS** (2D URP minimal ou Built-in en 2D simple) | stabilité LTS, compatibilité UHD 620 + Android ; 2D natif, sans HDR lourd |
+| ADR-01 | **Unity 6 LTS — 6000.6.8f1** (installé sur la machine, vérifié) | version LTS récente déjà en place ; 2D natif, support Windows Standalone ✅ (WebGL en bonus) ; ⚠️ module **Android Build Support** à ajouter via Unity Hub pour la cible mobile |
 | ADR-02 | **Données de cartes = JSON**, générées depuis des ScriptObjects en éditeur | donne lecture/modifiable hors Unity ; re-validate à l'import ; les règles ne portent jamais la donnée |
 | ADR-03 | **Moteur d'effets en "data-pure C#"** sans `UnityEngine.MonoBehaviour` | les règles testables sans lancer une scène (PDF §11) |
 | ADR-04 | **Machine à états de duel** (State Pattern sur les Phases), chronométrage inclus | empêche les états illégaux · garantie déterministe |
